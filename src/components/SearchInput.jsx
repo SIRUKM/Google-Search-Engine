@@ -7,7 +7,7 @@ import MicIcon from "../assets/mic.svg";
 import ImageIcon from "../assets/image.svg";
 
 const SearchInput = () => {
-  const [searchQuery, setSearchQuery] = useState("fdwef");
+  const [searchQuery, setSearchQuery] = useState("");
   return (
     <div
       id="searchBox"
